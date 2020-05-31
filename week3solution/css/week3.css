@@ -1,0 +1,71 @@
+body{
+	background-color: sienna;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#heading{
+	background-color: black;
+}
+
+.navbar-brand h1{
+	color: sienna;
+	font-weight: bold;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-toggler{
+	background-color: sienna;
+	border-color: sienna;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  text-decoration: none;
+}
+
+#menu{
+	color: sienna;
+	border-bottom: 1px solid sienna;
+	text-align: center;
+	padding: 10px;
+	font-size: 25px;
+}
+
+#menu:hover{
+	background-color: sienna; 
+	color: black;
+}
+
+#sub-head{
+	color: black;
+	text-align: center;
+	margin: 20px;
+	text-transform: capitalize;
+}
+
+.menu-tile{
+	border: 2px solid black;
+	margin-top: 25px;
+	box-shadow: 0 0 40px black;
+	margin-bottom: 20px;
+	background-color: peru;
+}
+
+.menu-tile h4{
+	color: black;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: auto;
+}
+#menu-content{
+	color: black;
+	padding: 15px;
+}
+
+@media (max-width: 762px){
+	.menu-tile{
+		margin: 20px 30px;
+	}
+}
